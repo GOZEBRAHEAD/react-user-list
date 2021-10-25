@@ -19,27 +19,27 @@ const CustomForm = ({ submit }) => {
     return (
         <form onSubmit={ handleSubmit }>
             <Input
-                label="Nombre:"
+                label="Name:"
                 name="name"
                 value={ formulario.name }
                 onChange={ handleChange }
             />
             
             <Input
-                label="Apellido:"
+                label="Lastname:"
                 name="lastname"
                 value={ formulario.lastname }
                 onChange={ handleChange }
             />
 
             <Input
-                label="Correo:"
+                label="E-mail:"
                 name="email"
                 value={ formulario.email }
                 onChange={ handleChange }
             />
 
-            <Button>Enviar</Button>
+            <Button>Save</Button>
         </form>
     );
 }
