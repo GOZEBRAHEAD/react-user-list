@@ -1,0 +1,19 @@
+.card {
+    height: 100%;
+    width: 100%;
+    padding: 2rem;
+}
+
+.card form {
+    height: 100%;
+    width: 80%;
+}
+
+.card ul li {
+    margin-bottom: 1rem;
+    font-family: monospace;
+}
+
+.card ul li::marker {
+    color: red;
+}

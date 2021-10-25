@@ -1,0 +1,17 @@
+.input__container {
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.input__container label {
+    margin-bottom: 5px;
+}
+
+.input__container input {
+    outline: 0;
+    font-size: 1em;
+    padding: 2.5px 10px;
+    width: 100%;
+    box-sizing: border-box;
+}

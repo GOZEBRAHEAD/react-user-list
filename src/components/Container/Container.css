@@ -1,0 +1,10 @@
+.container {
+    height: 100%;
+    width: 100%;
+    border: 1px solid #102a42;
+    box-shadow: 5px 5px 1px #102a42;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1rem;
+}
